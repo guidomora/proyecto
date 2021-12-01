@@ -173,6 +173,7 @@ body h3 {
 /*media queries */
 @media (min-width: 360px) and (max-width: 599px) {
   header {
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; }
@@ -192,8 +193,7 @@ body h3 {
   nav ul {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly; }
+    flex-wrap: wrap; }
   footer {
     display: flex;
     flex-direction: column;
