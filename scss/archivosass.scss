@@ -6,6 +6,7 @@
 $beige: #F2EDD7;
 $blancoClaro: #F9F6F2;
 $fuente: 'Oswald', sans-serif;
+$tamanoH: 25px;
 
 
 
@@ -192,6 +193,13 @@ body {
 .datos__ig {
 	height: 100px;
 	width: 100px;
+	margin: 10px;
+}
+
+.datos__wpp {
+	height: 130px;
+	width: 140px;
+	margin: 10px;
 }
 
 .datos__pagos{
@@ -214,14 +222,24 @@ body {
 }
 
 
-
-
 h4 {
 	font-family: $fuente;
+	font-size: $tamanoH;
 }
 
 h5 {
 	font-family: $fuente;
+	font-size: $tamanoH;
+}
+
+h6 {
+	font-family: $fuente;
+	font-size: $tamanoH;
+}
+
+h7 {
+	font-family: $fuente;
+	font-size: $tamanoH;
 }
 
 .centrar{
