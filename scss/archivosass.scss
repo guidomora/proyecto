@@ -108,9 +108,6 @@ body {
 
 /*main */ 
 
-#productos{
-	grid-area: productos;
-}
 
 .flex {
 	width:100%;
@@ -273,10 +270,45 @@ body h2 {
 
 /*media queries */ 
 
-@media (min-width: 360px) and (max-width: 599px) {
+@media only screen and (max-width: 767px) {
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	.logo {
+		height: 100px;
+		width: 200px;
+	}
 
+	.telefono {
+		font-size: 20px;
+	}
+
+	body {
+		height: 100vh;
+
+		header{
+			width: 100%;	
+		}
+		section {
+			width: 100%
+		}
+		nav {
+			width: 100%
+			
+		}
+		main {
+			width: 100%
+		}
+		footer{
+			width: 100%
+		}
+	}
 }
 
-@media (min-width: 600px) and (max-width: 1024px) {
-	
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
 }

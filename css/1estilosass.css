@@ -78,9 +78,6 @@ body {
 
 /* nav*/
 /*main */
-#productos {
-  grid-area: productos; }
-
 .flex {
   width: 100%;
   display: flex;
@@ -205,3 +202,26 @@ body h3 {
   font-size: 20px; }
 
 /*media queries */
+@media only screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  h1 {
+    font-size: 20px; }
+  .logo {
+    height: 100px;
+    width: 200px; }
+  .telefono {
+    font-size: 20px; }
+  body {
+    height: 100vh; }
+    body header {
+      width: 100%; }
+    body section {
+      width: 100%; }
+    body nav {
+      width: 100%; }
+    body main {
+      width: 100%; }
+    body footer {
+      width: 100%; } }
