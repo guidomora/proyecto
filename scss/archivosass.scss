@@ -27,7 +27,7 @@ body {
 
     nav{
         width:100vw;
-        height: 20vh;
+        height: 15vh;
         background-color: $beige;
         text-align: center;
         font-family: $fuente;
@@ -122,13 +122,14 @@ body {
 
 /*main */ 
 
+#datos 
 
 .flex {
-	width:100%;
+	height: 100vh;
+	width: 100%;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	justify-content: center;
 
 }
 
@@ -316,10 +317,6 @@ body h2 {
 		font-size: $tamanoHMedia;
 	}
 	
-	p {
-		font-size: 13px;
-	}
-
 	.logo {
 		height: 75px;
 		width: 130px;
@@ -361,7 +358,13 @@ body h2 {
 	   transition: 400ms ease;
 	   margin-top: 20px;
    }
-   
+
+   #datos {
+	   display: flex;
+	   flex-direction: column;
+   }
+
+
 
 	body {
 		height: 100vh;
