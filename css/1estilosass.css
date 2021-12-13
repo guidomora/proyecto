@@ -91,7 +91,8 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  justify-content: space-evenly;
+  justify-content: center; }
 
 .flex__estilo {
   background-color: #F9F6F2;
@@ -103,12 +104,6 @@ body {
   display: flex;
   flex-flow: column;
   align-items: center; }
-
-.estiloTitulos {
-  width: 100%;
-  background-color: #F9F6F2;
-  text-align: center;
-  text-decoration: underline; }
 
 .textoMedio {
   text-align: center; }
@@ -132,6 +127,8 @@ body {
   justify-content: space-evenly; }
 
 .datos__fondo {
+  display: flex;
+  flex-direction: column;
   background-color: #F2EDD7;
   padding: 70px;
   margin: 30px; }
@@ -139,12 +136,12 @@ body {
 .datos__ig {
   height: 100px;
   width: 100px;
-  margin: 10px; }
+  margin: 15px; }
 
 .datos__wpp {
   height: 130px;
   width: 140px;
-  margin: 10px; }
+  margin: 15px; }
 
 .datos__pagos {
   height: 250px;
@@ -155,11 +152,15 @@ body {
   text-align: center;
   margin: 15px; }
 
-.tamanoContacto {
+.contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   height: 400px;
   background-color: #F9F6F2;
-  margin-top: 20px; }
+  margin: 20px; }
 
 h4 {
   font-family: "Oswald", sans-serif;
@@ -233,6 +234,24 @@ body h3 {
     font-size: 15px; }
   h3 {
     font-size: 15px; }
+  h4 {
+    font-size: 15px; }
+  h5 {
+    font-size: 15px; }
+  h6 {
+    font-size: 15px; }
+  h7 {
+    font-size: 15px; }
+  h8 {
+    font-size: 15px; }
+  h9 {
+    font-size: 15px; }
+  h10 {
+    font-size: 15px; }
+  h11 {
+    font-size: 15px; }
+  .parrafos {
+    font-size: 12px; }
   .logo {
     height: 75px;
     width: 130px; }
@@ -263,9 +282,47 @@ body h3 {
     align-items: center;
     transition: 400ms ease;
     margin-top: 20px; }
-  #datos {
+  .datos {
+    width: 100%;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    justify-content: space-evenly; }
+  .datos__fondo {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2EDD7;
+    padding: 45px;
+    margin: 15px; }
+  .datos__ig {
+    height: 50px;
+    width: 50px;
+    margin: 15px; }
+  .datos__wpp {
+    height: 65px;
+    width: 70px;
+    margin: 15px; }
+  .datos__pagos {
+    height: 115px;
+    width: 270px; }
+  .iframe {
+    height: 250px;
+    width: 250px; }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 350px;
+    background-color: #F9F6F2;
+    margin: 20px; }
+  .centrar {
+    margin: 15px; }
+  .iconos {
+    margin: 10px;
+    font-size: 25px; }
   body {
     height: 100vh; }
     body header {
@@ -273,7 +330,16 @@ body h3 {
       flex-direction: column;
       width: 100%;
       height: 190px; }
+    body nav {
+      position: sticky;
+      top: 0px;
+      bottom: 0px; }
     body main {
       width: 100%; }
     body footer {
-      width: 100%; } }
+      height: 110px;
+      width: 100%;
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
