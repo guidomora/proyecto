@@ -35,7 +35,6 @@ body {
         font-size: 22px;
         font-weight: bold;
     }
-
     footer{
         width:100vw;
         height: 15vh;
@@ -130,7 +129,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: center;
+	align-items: center;
 }
 
 .flex__estilo{
@@ -253,6 +252,18 @@ h11 {
 	font-family: $fuente;
 	font-size: $tamanoH;
 }
+h12 {
+	font-family: $fuente;
+	font-size: $tamanoH;
+}
+h13 {
+	font-family: $fuente;
+	font-size: $tamanoH;
+}
+h14 {
+	font-family: $fuente;
+	font-size: $tamanoH;
+}
 .centrar{
 	margin-left: 550px;
 	margin-right: 550px;
@@ -287,7 +298,7 @@ h11 {
 
 
 body h2 {
- 	background-color: #F2EDD7;
+
 	font-family: $fuente;
 }
 
@@ -346,6 +357,15 @@ body h2 {
 	h11 {
 		font-size: $tamanoHMedia;
 	}
+	h12 {
+		font-size: $tamanoHMedia;
+	}
+	h13 {
+		font-size: $tamanoHMedia;
+	}
+	h14 {
+		font-size: $tamanoHMedia;
+	}
 	.parrafos {
 		font-size: $tamanoTextoMedia;
 	}
@@ -393,7 +413,7 @@ body h2 {
 
 	.flex__estilo--img {
 		height: 250px;
-	   width: 150px;
+	   width: 180px;
 	   display: flex;
 	   align-items: center;
 	   transition: 400ms ease;
@@ -476,6 +496,7 @@ body h2 {
 			height: 17vh;
 			position: sticky;
 			top: 0px;
+
 		}
 
 		main {
