@@ -57,7 +57,7 @@
 		</section>
 		<nav>
 			<h2> Nuestros Productos </h2>
-			<ul class="menu">
+			<ul>
 				<li class="linea">
 					<a href="./index.html" class="linea__sinSubrayado"> 
 						<button type="button" class="btn btn-primary boton">Home</button> 
@@ -87,7 +87,7 @@
 		</nav>
 		<h3 class="textoMedio"> Productos destacados </h3>
 		<main>
-			<div class="flex">
+			<article class="flex">
 				<div class="flex__estilo">
 					<h4 class="textoMedio"> Docena de rosas rojas</h4>
 					<img src= "./multimedia/rosas.jpg" alt="docena de rosas" class="flex__estilo--img">
@@ -103,7 +103,7 @@
 					<img src= "./multimedia/caja1.jpg" alt="caja con rosas" class="flex__estilo--img">
 					<p class="tipografia parrafos"> Caja con rosas rojas y blancas con forma de corazón. </p>
 				</div>
-			</div>	
+			</article>	
 			<section class="datos">
 				<div class="datos__fondo">
 					<h7> Horarios de atención </h7>
@@ -127,14 +127,16 @@
 				</div>
 			</section>
 			<section class="contacto">
-				<h11 class="textoMedio"> Contacto </h11>	
-				<article>
+				<div class="flexH">
+					<h11> Contacto </h11>
+				</div>		
+				<article class="formularios">
 					<div class="mb-3 centrar">
-					<label for="exampleFormControlInput1" class="form-label">Email </label>
+					<label for="exampleFormControlInput1" class="form-label tipografia">Email </label>
 					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 					</div>
 					<div class="mb-3 centrar">
-					<label for="exampleFormControlTextarea1" class="form-label"> Mensaje </label>
+					<label for="exampleFormControlTextarea1" class="form-label tipografia"> Mensaje </label>
 					<textarea class="form-control" id="exampleFormControlTextarea1" rows="7" cols="20"></textarea>
 					</div>
 					<button type="button" class="btn btn-primary"> Enviar </button>
