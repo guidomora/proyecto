@@ -65,13 +65,17 @@ body {
   font-size: 26px; }
 
 .boton {
+  background-color: #880e0e;
   height: 50px;
   width: 85px;
   font-size: 25px;
   margin-bottom: 7px;
-  margin-top: 7px; }
+  margin-top: 7px;
+  border: #880e0e; }
 
 .boton--grande {
+  background-color: #880e0e;
+  border: #880e0e;
   height: 50px;
   width: 160px;
   font-size: 25px;
@@ -104,6 +108,12 @@ body {
 
 .flex__estilo--img:hover {
   transform: translateY(-3%); }
+
+.flexH {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .datos {
   display: flex;
@@ -147,6 +157,14 @@ body {
   height: 400px;
   background-color: #F9F6F2;
   margin: 20px; }
+
+.enviar {
+  background-color: #880e0e;
+  border: #880e0e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 h4 {
   font-family: "Oswald", sans-serif;
@@ -464,11 +482,18 @@ body h3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    width: 100vw;
     background-color: #F9F6F2;
     margin: 20px; }
   .formularios {
-    width: 500px; }
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center; }
+  #contactoTit {
+    width: 100vw; }
   .centrar {
     margin: 15px; }
   .iconos {
@@ -481,7 +506,7 @@ body h3 {
     flex-wrap: wrap;
     justify-content: center; }
   body {
-    height: 100vh;
+    height: 100%;
     width: 100vw; }
     body header {
       display: flex;
