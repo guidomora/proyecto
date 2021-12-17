@@ -98,6 +98,10 @@ body {
 .textoMedio {
   text-align: center; }
 
+.negrita {
+  font-weight: bold;
+  font-size: 25px; }
+
 .flex__estilo--img {
   height: 470px;
   width: 350px;
@@ -111,6 +115,7 @@ body {
 
 .flexH {
   width: 100vw;
+  font-size: 22px;
   font-weight: bold;
   display: flex;
   flex-direction: row;
@@ -237,7 +242,8 @@ body h2 {
   font-family: "Oswald", sans-serif; }
 
 body h3 {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Oswald", sans-serif;
+  font-size: 27px; }
 
 .tipografia {
   font-family: "Oswald", sans-serif;
@@ -362,6 +368,9 @@ body h3 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; }
+  .negrita {
+    font-weight: bold;
+    font-size: 25px; }
   body {
     height: 100vh;
     width: 100vw; }
@@ -506,11 +515,13 @@ body h3 {
     font-size: 25px; }
   .flexH {
     width: 100vh;
+    font-size: 22px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    justify-content: space-evenly; }
   body {
     height: 100%;
     width: 100vw; }

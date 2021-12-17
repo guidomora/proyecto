@@ -140,6 +140,11 @@ body {
  	text-align: center;
 }
 
+.negrita {
+	font-weight: bold;
+	font-size: 25px;
+}
+
 .flex__estilo--img {
  	height: 470px;
 	width: 350px;
@@ -155,6 +160,7 @@ body {
 
 .flexH {
 	width: 100vw;
+	font-size: 22px;
 	font-weight: bold;
 	display: flex;
 	flex-direction: row;
@@ -313,6 +319,7 @@ body h2 {
 
  body h3{
 	font-family: $fuente;
+	font-size: 27px;
 }
 
  
@@ -498,6 +505,11 @@ body h2 {
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.negrita {
+		font-weight: bold;
+		font-size: 25px;
 	}
 
 	body {
@@ -713,11 +725,13 @@ body h2 {
 
 	.flexH {
 		width: 100vh;
+		font-size: 22px;
 		font-weight: bold;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 
