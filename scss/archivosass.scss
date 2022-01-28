@@ -28,7 +28,7 @@ body {
     }
 
     nav{
-        width:100%;
+        width:100vw;
         height: 15vh;
         background-color: $beige;
         text-align: center;
@@ -82,6 +82,9 @@ body {
 
 /* header */
 
+#caousel {
+	width: 100vw;
+}
 
 /* nav*/
 
@@ -140,11 +143,6 @@ body {
  	text-align: center;
 }
 
-.negrita {
-	font-weight: bold;
-	font-size: 25px;
-}
-
 .flex__estilo--img {
  	height: 470px;
 	width: 350px;
@@ -156,6 +154,11 @@ body {
 
 .flex__estilo--img:hover {
 	transform: translateY(-3%);
+}
+
+.precio {
+	font-weight: bold;
+	font-family: $fuente;
 }
 
 .flexH {
@@ -320,6 +323,7 @@ body h2 {
  body h3{
 	font-family: $fuente;
 	font-size: 27px;
+	font-weight: bold;
 }
 
  
@@ -419,7 +423,7 @@ body h2 {
 	.flex__estilo {
 		background-color: $blancoClaro;
 		border-style: solid;
-		height: 420px;
+		height: 430px;
 		width: 300px;
 		margin: 20px;
 		padding: 15px;
@@ -435,6 +439,10 @@ body h2 {
 	   align-items: center;
 	   transition: 400ms ease;
 	   margin-top: 20px;
+   }
+
+   .precio {
+	   font-size: 13px;
    }
 
    .datos{
