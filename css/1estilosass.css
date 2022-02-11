@@ -20,7 +20,8 @@ body {
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-size: 22px;
-    font-weight: bold; }
+    font-weight: bold;
+    border: solid 1px; }
   body main article div {
     width: 100vw;
     display: flex;
@@ -175,6 +176,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center; }
+
+.envios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2EDD7; }
 
 h4 {
   font-family: "Oswald", sans-serif;

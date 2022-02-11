@@ -35,6 +35,7 @@ body {
         font-family: $fuente;
         font-size: 22px;
         font-weight: bold;
+		border: solid 1px;
     }
 
 	main article div {
@@ -230,6 +231,15 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.envios {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #F2EDD7;
 }
 
 h4 {
